@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+/* #5ce1e6 --> primary Color */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cantarell", sans-serif !important;
+}
+.navBar_bg {
+  background-color: #00fff30a !important;
+  box-shadow: 0px 0px 8px 0px #4cbbbf;
+}
+.navBar_text > ul > li > a {
+  font-family: "Cantarell", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 550;
+}
+.navBar_logo {
+  width: 200px;
+}
+.navBar_activeLink {
+  font-family: "Cantarell", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #0bf1dc !important;
+  transition-property: all !important;
+  transition-duration: 0.6s !important;
+  transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1) !important;
+  border-bottom: 2px solid black !important;
+}
+.header_BannerImage {
+  width: 400px;
+}
+.header_Container {
+  /* background-color: rgb(211, 210, 210); */
+}
+.header_TextHeading {
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+.header_TextHeading_Always {
+  font-size: 40px;
+  color: #5ce1e6;
+}
+.header_TextHeading_Learning {
+  font-size: 40px;
+  color: black;
+}
+
+.header_Banner_TagLine {
+  font-size: 1.1rem;
+  color: grey;
+  line-height: 2.5rem;
+}
+.header_getStarted_btn {
+  border-radius: 50px !important;
+  padding: 5px 20px !important;
+}
+
+/* Footer */
+.footer_bg {
+  background-color: #00fff30a !important;
+  color: grey;
+}
+.footer_bg_band {
+  background-color: #00fff347 !important;
+  color: #2b4141;
+}
+.footer_heartIcon {
+  margin: 0px 5px;
+  color: darkred;
+}
+.footer_logo {
+  max-width: 200px !important;
+}
+.footer_lightText {
+  font-size: 1rem;
+  color: grey;
+}
+.footer_darkText {
+  color: rgb(43, 65, 65);
+}
+.footer_lightText > a {
+  text-decoration: none;
+  color: grey;
+}
+.footer_lightText > a:hover {
+  text-decoration: none;
+  color: #0bf1dc;
+}
+.footer_textUnderline {
+  border-bottom: 2px solid #0bf1dc;
+  padding-bottom: 5px;
+}
