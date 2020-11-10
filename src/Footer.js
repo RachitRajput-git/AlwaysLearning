@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
       <footer>
-        <div className="row py-5 gx-0  footer_bg ">
+        <div className="row py-5 gx-0  footer_bg mt-5 ">
           <div className="col-md-3 col-sm-6 col-xs-12 col-12  px-5  mx-auto">
             <img
               src={FooterLogo}
