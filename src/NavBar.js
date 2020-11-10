@@ -63,7 +63,7 @@ function NavBar(props) {
                     data-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Service
+                    PRODUCTS
                   </a>
                   <ul
                     className="dropdown-menu"

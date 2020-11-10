@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 /* #5ce1e6 --> primary Color */
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Cantarell", sans-serif !important;
+  font-family: "Merienda", sans-serif !important;
 }
+
 .navBar_bg {
-  background-color: #00fff30a !important;
+  /* background-color: #00fff30a !important; */
   box-shadow: 0px 0px 8px 0px #4cbbbf;
 }
 .navBar_text > ul > li > a {
-  font-family: "Cantarell", sans-serif !important;
+  font-family: "Merienda", sans-serif !important;
   text-transform: uppercase;
   font-weight: 550;
 }
@@ -19,7 +21,7 @@
   width: 200px;
 }
 .navBar_activeLink {
-  font-family: "Cantarell", sans-serif !important;
+  font-family: "Merienda", sans-serif !important;
   text-transform: uppercase;
   font-weight: 500;
   color: #0bf1dc !important;

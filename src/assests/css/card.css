@@ -1,0 +1,23 @@
+.card_size {
+  width: 150px;
+  border: none;
+  margin: 0.5rem;
+  /* box-shadow: 0.5px 0.5px 3px 1px lavender; */
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.card_image {
+  width: 100%;
+  object-fit: cover;
+}
+.card_size:hover {
+  border: grey;
+  box-shadow: 2px 2px 10px 2px rgb(211, 209, 209);
+  transform: scale(1.01) translate3d(0px, -2px, 8px);
+}
+@media only screen and (max-width: 450px) {
+  .card_size {
+    width: 60px;
+  }
+}

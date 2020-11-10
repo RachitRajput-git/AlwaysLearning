@@ -1,0 +1,13 @@
+.row_TextHeading {
+  font-size: 30px;
+  color: #5ce1e6;
+}
+.row_description {
+  font-size: 1.1rem;
+  color: grey;
+  line-height: 1.5rem;
+}
+.row_checkAll_btn {
+  border-radius: 50px !important;
+  padding: 5px 20px !important;
+}
