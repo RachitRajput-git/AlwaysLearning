@@ -4,14 +4,14 @@ import "./assests/css/contact.css";
 function Contact() {
   return (
     <div className="container mt-5">
-      <div className="row">
+      <div className="row row_custom_style">
         <div className="col-12 text-center mb-5">
-          <h1>Get In Touch With Us</h1>
+          <h2>Get In Touch With Us</h2>
         </div>
         <div className="col-12 col-md-7">
           <div className="row">
             <div className="col-12 mb-3">
-              <h3>Contact Form</h3>
+              <h4>Contact Form</h4>
             </div>
             <div className="col-12">
               <div className="form_container">
@@ -46,7 +46,7 @@ function Contact() {
         </div>
         <div className="col-12 col-md-5 mx-auto address_column ">
           <div className="col-12 mb-3">
-            <h3>Address</h3>
+            <h4>Address</h4>
           </div>
           <div className="col-12 mb-3">
             <p>SATIK SOLUTION PVT LTD</p>
@@ -60,11 +60,11 @@ function Contact() {
               Sunday: Holiday
             </p>
           </div>
-          <div className="col-12 mt-3 social_icon">
+          {/* <div className="col-12 mt-3 social_icon">
             <i className="fab fa-facebook"></i>
             <i className="fab fa-instagram" />
             <i className="fab fa-whatsapp" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -11,3 +11,19 @@
   border-radius: 50px !important;
   padding: 5px 20px !important;
 }
+@media only screen and (max-width: 450px) {
+  .row_TextHeading {
+    font-size: 25px;
+    color: #5ce1e6;
+  }
+  .row_description {
+    font-size: 0.8rem;
+    color: grey;
+    line-height: 1rem;
+  }
+  .row_checkAll_btn {
+    font-size: 12px;
+    border-radius: 50px !important;
+    padding: 5px 20px !important;
+  }
+}

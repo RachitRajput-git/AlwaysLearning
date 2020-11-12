@@ -6,6 +6,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Merienda", sans-serif !important;
+  color: black;
 }
 
 .navBar_bg {
@@ -18,7 +19,7 @@
   font-weight: 550;
 }
 .navBar_logo {
-  width: 200px;
+  width: 125px;
 }
 .navBar_activeLink {
   font-family: "Merienda", sans-serif !important;
@@ -52,7 +53,7 @@
 .header_Banner_TagLine {
   font-size: 1.1rem;
   color: grey;
-  line-height: 2.5rem;
+  line-height: 1.5rem;
 }
 .header_getStarted_btn {
   border-radius: 50px !important;
@@ -61,7 +62,7 @@
 
 /* Footer */
 .footer_bg {
-  background-color: #00fff30a !important;
+  background-color: #00fff31f !important;
   color: grey;
 }
 .footer_bg_band {
@@ -93,4 +94,29 @@
 .footer_textUnderline {
   border-bottom: 2px solid #0bf1dc;
   padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 450px) {
+  .header_TextHeading {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+  .header_TextHeading_Always {
+    font-size: 30px;
+    color: #5ce1e6;
+  }
+  .header_TextHeading_Learning {
+    font-size: 30px;
+    color: black;
+  }
+
+  .header_Banner_TagLine {
+    font-size: 0.8rem;
+    color: grey;
+    line-height: 1rem !important;
+  }
+  .header_getStarted_btn {
+    border-radius: 50px !important;
+    padding: 5px 20px !important;
+  }
 }

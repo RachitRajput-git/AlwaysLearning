@@ -65,24 +65,8 @@ function Footer() {
 
         <div className="row mx-auto  footer_bg_band">
           <div className="col-12 my-2 text-center ">
-            @2020 AlwaysLearning | All rights reseverd | Terms and Conditions |
-            Made with
-            <span>
-              <svg
-                width="1em"
-                height="1em"
-                viewBox="0 0 16 16"
-                className="bi bi-heart-fill footer_heartIcon"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-                />
-              </svg>
-            </span>
-            by @RRLTeam
+            @2020 Satik Solutions | All rights reseverd 
+           
           </div>
         </div>
       </footer>

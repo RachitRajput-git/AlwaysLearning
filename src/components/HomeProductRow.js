@@ -4,7 +4,7 @@ import '../assests/css/homeProductRow.css'
 
 function HomeProductRow(props) {
     return (
-        <div className="container  ">
+        <div className="container mt-5 ">
             <div className="row pt-4">
                 <div className={`col-md-6  mx-auto col-12 pl-md-5  d-flex justify-content-center flex-column align-items-center ${props.sliderAlignment === 'left' ? 'order-md-2' : 'order-md-1'} order-2`}>
                     <p className="">
@@ -19,7 +19,7 @@ function HomeProductRow(props) {
                         Check All
             </button>
                 </div>
-                <div className={`col-md-6  mx-auto col-12   d-flex justify-content-center flex-column align-items-center ${props.sliderAlignment === 'left' ? 'order-md-1' : 'order-md-2'} order-1`}>
+                <div className={`col-md-5  mx-auto col-12   d-flex justify-content-center flex-column align-items-center ${props.sliderAlignment === 'left' ? 'order-md-1' : 'order-md-2'} order-1`}>
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>

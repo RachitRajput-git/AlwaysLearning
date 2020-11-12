@@ -3,6 +3,9 @@
   flex-direction: column;
   padding: 0.4rem;
 }
+.row_custom_style {
+  font-size: 14px;
+}
 .input_div {
   display: flex;
   display: flex;

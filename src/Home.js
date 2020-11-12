@@ -5,6 +5,8 @@ import HomeProductRow from './components/HomeProductRow'
 import Testimonials from './components/Testimonials';
 import Havells from './assests/images/havells.png'
 import Jaguar from './assests/images/Jaguar.jpg'
+import Slider from './assests/images/slider.jpg'
+import Slider_2 from './assests/images/slider_2.jpg'
 
 
 function Home() {
@@ -49,47 +51,47 @@ function Home() {
               <CompanyCard imageUrl={Havells} />
               <CompanyCard imageUrl={Jaguar} />
               <CompanyCard imageUrl={Havells} />
+              <CompanyCard imageUrl={Jaguar} />
               <CompanyCard imageUrl={Havells} />
+              <CompanyCard imageUrl={Jaguar} />
               <CompanyCard imageUrl={Havells} />
-              <CompanyCard imageUrl={Havells} />
-              <CompanyCard imageUrl={Havells} />
-              <CompanyCard imageUrl={Havells} />
+              <CompanyCard imageUrl={Jaguar} />
             </div>
           </div>
         </div>
       </div>
 
       <HomeProductRow
-        imageUrl_1={bannerImage}
-        imageUrl_2={Jaguar}
-        imageUrl_3={bannerImage}
+        imageUrl_1={Slider}
+        imageUrl_2={Slider_2}
+        imageUrl_3={Slider}
         sliderAlignment="right"
         description=''
         title='Electrical Tapes'
       />
 
       <HomeProductRow
-        imageUrl_1={bannerImage}
-        imageUrl_2={Jaguar}
-        imageUrl_3={bannerImage}
+        imageUrl_1={Slider}
+        imageUrl_2={Slider_2}
+        imageUrl_3={Slider}
         sliderAlignment="left"
         description=''
         title='Thermal Tapes'
       />
 
       <HomeProductRow
-        imageUrl_1={bannerImage}
-        imageUrl_2={Jaguar}
-        imageUrl_3={bannerImage}
+        imageUrl_1={Slider}
+        imageUrl_2={Slider_2}
+        imageUrl_3={Slider}
         sliderAlignment="right"
         description=''
         title='Switches '
       />
 
       <HomeProductRow
-        imageUrl_1={bannerImage}
-        imageUrl_2={Jaguar}
-        imageUrl_3={bannerImage}
+        imageUrl_1={Slider}
+        imageUrl_2={Slider_2}
+        imageUrl_3={Slider}
         sliderAlignment="left"
         description=''
         title='Fans'
