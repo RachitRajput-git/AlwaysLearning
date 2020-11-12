@@ -110,7 +110,7 @@ function NavBar(props) {
                     Contact Us
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink
                     activeClassName="navBar_activeLink"
                     className="nav-link"
@@ -118,7 +118,7 @@ function NavBar(props) {
                   >
                     Social Links
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

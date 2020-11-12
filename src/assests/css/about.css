@@ -1,0 +1,22 @@
+.footer_banner_box {
+  height: 250px;
+
+  object-fit: cover;
+  background-position: center;
+  background-image: url("../images/footerBanner.jpg");
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_banner_box::before {
+  content: "";
+  background-color: rgb(127 243 255 / 13%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 98vw;
+}
+.about_text p {
+  line-height: 2rem;
+}
