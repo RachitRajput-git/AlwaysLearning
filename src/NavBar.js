@@ -56,15 +56,15 @@ function NavBar(props) {
                   </NavLink>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
+                  <button
+                    className="nav-link dropdown-toggle btn btn-link "
                     href="#"
                     id="navbarDropdown"
                     data-toggle="dropdown"
                     aria-expanded="false"
                   >
                     PRODUCTS
-                  </a>
+                  </button>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"

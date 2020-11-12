@@ -1,6 +1,5 @@
 import React from "react";
 import "./assests/css/about.css";
-import FooterBanner from "./assests/images/footerbanner-2.jpg";
 
 function About() {
   return (
